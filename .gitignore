@@ -32,3 +32,8 @@ CTestTestfile.cmake
 *.rpm
 *.tar.gz
 *.zip
+
+# M4 generated files (temporary)
+*.m4.tmp
+*_generated
+*.h.new
