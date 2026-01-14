@@ -108,7 +108,6 @@ INSTALL (FILES
 	${CMAKE_CURRENT_BINARY_DIR}/atom_types.h
 	${CMAKE_CURRENT_BINARY_DIR}/atom_types_init.h
 	${CMAKE_CURRENT_BINARY_DIR}/atom_names.h
-	atom_types.cc
 	NameServer.h
 	types.h
 	DESTINATION "include/opencog/atoms/atom_types"

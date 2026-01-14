@@ -77,7 +77,7 @@ def generate_init(types_data: List[Tuple[str, List[str], Optional[str]]]) -> str
         type_str = camel_case(type_name) if not custom_name else custom_name
         short_name = strip_suffix(type_str, 'Link')
         short_name = strip_suffix(short_name, 'Node')
-        if short_name == type_str or short_name == '':
+        if short_name == type_str or not short_name:
             short_name = type_str
         
         parent_str = parents[0] if parents else ''

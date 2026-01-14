@@ -5,7 +5,7 @@ dnl M4 macro definitions for automatic Atom Type generation.
 dnl This provides a pure m4-based and header-only implementation
 dnl replacing the CMake-based type generation system.
 dnl
-dnl Copyright (c) 2026 OpenCog Foundation
+dnl Copyright (c) 2025 OpenCog Foundation
 dnl
 changequote(`[', `]')dnl Change quote characters to avoid conflicts with C++ code
 dnl
