@@ -17,7 +17,6 @@ define([ATOM_TYPES_HEADER_INIT], [dnl
 #define _OPENCOG_ATOM_TYPES_H
 
 #include <opencog/atoms/atom_types/types.h>
-#include <opencog/atoms/atom_types/NameServer.h>
 
 namespace opencog {
 
@@ -61,6 +60,7 @@ define([TYPE_REGISTRATION_INIT], [dnl
 #define _OPENCOG_ATOM_TYPES_INIT_H
 
 #include "atom_types.h"
+#include <opencog/atoms/atom_types/NameServer.h>
 
 namespace opencog {
 
